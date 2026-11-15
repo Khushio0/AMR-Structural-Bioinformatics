@@ -25,7 +25,7 @@ Antimicrobial resistance (AMR) is a major global health problem. Enzymes such as
 | Homology modeling | SWISS-MODEL |
 | Structure validation | Verify3D, PROCHECK (Ramachandran and Chi1-Chi2 plots) |
 
-The full proposed pipeline (target selection, sequence retrieval, template identification, homology modeling, validation, binding-pocket analysis, mutation identification, structural impact analysis, docking, mechanism interpretation, AI-based forecasting) is shown in `figures/computational_workflow.png`.
+The proposed pipeline runs from target selection and sequence retrieval through homology modeling, validation, mutation analysis and docking to AI-based forecasting.
 
 ## Results
 
@@ -36,11 +36,11 @@ The full proposed pipeline (target selection, sequence retrieval, template ident
 
 | SWISS-MODEL structure | Verify3D |
 |---|---|
-| ![SWISS-MODEL CAT structure](results/swiss-model_cat_structure.png) | ![Verify3D](results/verify3d_validation.png) |
+| ![SWISS-MODEL CAT structure](swiss-model_cat_structure.png) | ![Verify3D](verify3d_validation.png) |
 
 | PROCHECK Chi1-Chi2 (A) | PROCHECK Chi1-Chi2 (B) |
 |---|---|
-| ![Chi1-Chi2 A](results/procheck_chi1-chi2_plots_A.png) | ![Chi1-Chi2 B](results/procheck_chi1-chi2_plots_B.png) |
+| ![Chi1-Chi2 A](procheck_chi1-chi2_plots_A.png) | ![Chi1-Chi2 B](procheck_chi1-chi2_plots_B.png) |
 
 ## Proposed framework (hypothesis)
 
@@ -48,22 +48,14 @@ A cloud-based AI platform: data processing, structural modeling, structure valid
 
 > The stability and Bayesian-update curves in Poster 2 (Fig. 3) are illustrative expected outcomes, not experimental results.
 
-![AI cloud platform workflow](figures/ai_cloud_platform_workflow.png)
+![CAT 3D structure](cat_3d_structure_cartoon.png)
 
 ## Posters
 
-| Poster | Files |
+| Poster | File |
 |---|---|
-| 1. Predicting Tomorrow's Resistance Today (structural analysis) | [PDF](posters/poster1_bennett_structural-analysis.pdf), [PNG](posters/poster1_bennett_structural-analysis.png) |
-| 2. Predictive Cloud-Based AI for Preclinical Forecasting of AMR Mutations | [PDF](posters/poster2_conference2026_predictive-ai.pdf), [PNG](posters/poster2_conference2026_predictive-ai.png) |
-
-## Repository structure
-
-```
-posters/    Poster PDFs and PNGs
-results/    Result screenshots (SWISS-MODEL, Verify3D, PROCHECK)
-figures/    Workflow and mechanism figures
-```
+| 1. Predicting Tomorrow's Resistance Today (structural analysis) | [PDF](poster1_bennett_structural-analysis.pdf) |
+| 2. Predictive Cloud-Based AI for Preclinical Forecasting of AMR Mutations | [PDF](poster2_conference2026_predictive-ai.pdf) |
 
 ## Future work
 
