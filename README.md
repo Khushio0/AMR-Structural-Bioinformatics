@@ -13,7 +13,7 @@ Antimicrobial resistance (AMR) is a major global health problem. Enzymes such as
 
 ## Objectives
 
-1. Model and analyze the structure and function of resistance enzymes (CAT, MCR-1).
+1. Model and analyze the structure and function of resistance enzymes (CAT).
 2. Integrate structural bioinformatics and AI into a cloud-based framework for early forecasting of resistance-conferring mutations.
 3. Support precision antimicrobial drug design and reduce therapeutic failures.
 
